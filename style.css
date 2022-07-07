@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+.container header, a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  color: navy;
+  text-decoration: none;
+  background: silver;
+  text-shadow: rgb(107, 107, 169) 8px 7px 2px;
+}
+nav {
+  margin: 15px;
+  text-align:left;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  color: navy;
+}
+input {
+  border-radius: 8px;
+  border-color: silver;
+  width: 220px;
+  height: 30px;
+}
+.imageCar {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 30px;
+}
+.imageCar img {
+  height: 230px;
+  width: 330px;
+  border-radius:10px;
+}
+table {
+  height: 230px;
+  width: 330px;
+  background-color: hsl(152, 15%, 49%);
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+button {
+  height: 32px;
+  width: 100px;
+  color: black;
+  background: yellow;
+  font-size: 1em;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+button:hover {
+  height:40px;
+  width:120px;
+  color:red;
+  transition: 200ms;
+}
+.volkswagem-golf, .volkswagem-passat, .volkswagem-lamando, .volkswagem-beatle, .volkswagem-arteon {
+  display:flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
